@@ -1,0 +1,51 @@
+
+
+
+/* CheckOutForm.css */
+
+.checkout-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.checkout-form h2 {
+    margin-bottom: 20px;
+}
+
+.checkout-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-form .form-control {
+    margin-bottom: 15px;
+}
+
+.checkout-form button {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .checkout-form {
+        max-width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .checkout-form .form-control {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-bottom: 10px; /* Reduce margin between inputs */
+    }
+
+    .checkout-form button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-top: 15px; /* Increase margin top for buttons */
+    }
+}
+
+
+
+

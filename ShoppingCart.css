@@ -1,0 +1,19 @@
+/* ShoppingCart.css */
+.list-group-item {
+    padding: 1rem;
+    border: none;
+}
+
+/* Media Query for Small Devices (phones) */
+@media (max-width: 576px) {
+    .col-8 {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+
+    .col-4 {
+        flex: 0 0 30%;
+        max-width: 30%;
+        text-align: right;
+    }
+}
